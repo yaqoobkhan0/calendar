@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+.nav {
+  width: 100vw;
+  height: 70px;
+  background-color: rgb(226, 119, 43);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+.contest {
+  background-color: rgb(223, 184, 25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.card {
+  width: 85vw;
+  background-color: rgb(137, 36, 225);
+  margin-left: 6vw;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  text-align: start;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: rgb(13, 247, 204);
+  color: blueviolet;
+}
+.h2 {
+  text-align: center;
+  width: 100vw;
+  height: fit-content;
+  color: rgb(5, 65, 244);
+  border: 12px;
+  border-color: rgb(0, 0, 0);
+  border-color: brown;
+}
+th,
+td {
+  padding: 15px;
+  border: 5px solid black;
+  color: brown;
+}
+table {
+  border: 8px solid black;
+  height: 200px;
+  
+}
+.table_parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+
+  background-color:aquamarine;
+  height: 55px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgba(247, 208, 11, 0.826);
+  color: rgb(224, 23, 154);
+}
+.h1 {
+  color: orangered;
+  margin-right: 20px;
+}
+.display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: flex;
+  align-items: center;
+}
+.left {
+  margin-left: 50px;
+}
+.logo {
+  height: 250px;
+}
+  button {
+    height: 100px;
+  }
+
